@@ -24,7 +24,7 @@ const HotelCard = () => {
 
   return (
     <Container>
-      <div className=" px-5 md:px-[52px] pt-5 bg-[#1677BD] rounded-lg relative">
+      <div className=" px-2 md:px-[52px] pt-5 bg-[#1677BD] rounded-lg relative">
         <h1 className="text-xl md:text-3xl font-normal font-lexend text-white">
           Find the best restaurant ratings below
         </h1>

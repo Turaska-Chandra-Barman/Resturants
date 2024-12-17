@@ -1,3 +1,4 @@
+import { img, text } from "framer-motion/client";
 
 
 
@@ -231,8 +232,8 @@
            '/image/LatestTrands/trandsimg7.png',
            '/image/LatestTrands/trandsimg8.png',
            '/image/LatestTrands/trandsimg9.png',
-           '/image/LatestTrands/trandsimg10.png', 
-           '/image/LatestTrands/trandsimg11.png', 
+           '/image/LatestTrands/trandsimg10.png',
+           '/image/LatestTrands/trandsimg11.png',
          ],
          name: 'Lokma',
          text: 'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout',
@@ -269,8 +270,8 @@
          images: [
            '/image/LatestTrands/trandsimg8.png',
            '/image/LatestTrands/trandsimg9.png',
-           '/image/LatestTrands/trandsimg10.png', 
-           '/image/LatestTrands/trandsimg11.png', 
+           '/image/LatestTrands/trandsimg10.png',
+           '/image/LatestTrands/trandsimg11.png',
          ],
          name: 'Starbelly',
          text: 'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout',
@@ -288,9 +289,9 @@
          id: crypto.randomUUID(),
          images: [
            '/image/LatestTrands/trandsimg9.png',
-           '/image/LatestTrands/trandsimg10.png', 
-           '/image/LatestTrands/trandsimg11.png', 
-           '/image/LatestTrands/trandsimg12.png', 
+           '/image/LatestTrands/trandsimg10.png',
+           '/image/LatestTrands/trandsimg11.png',
+           '/image/LatestTrands/trandsimg12.png',
          ],
          name: 'Iori',
          text: 'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout',
@@ -307,9 +308,9 @@
        {
          id: crypto.randomUUID(),
          images: [
-           '/image/LatestTrands/trandsimg10.png', 
-           '/image/LatestTrands/trandsimg11.png', 
-           '/image/LatestTrands/trandsimg12.png', 
+           '/image/LatestTrands/trandsimg10.png',
+           '/image/LatestTrands/trandsimg11.png',
+           '/image/LatestTrands/trandsimg12.png',
            '/image/LatestTrands/trandsimg2.png',
          ],
          name: 'Ngalley',
@@ -360,10 +361,64 @@
            '/image/BestRatingsImg/rating-img.svg',
            '/image/BestRatingsImg/rating-img.svg',
            '/image/BestRatingsImg/rating-img.svg',
-           
          ],
          ratingnum: 5.0,
          reviews: '(876 reviews)',
+       },
+     ],
+     activites: [
+       {
+         id: crypto.randomUUID(),
+         img: '/image/manicon.svg',
+         name: 'Leslie sakho',
+         country: 'Canada, toronto',
+         img: '/image/BestRatingsImg/rating-img.svg',
+         data: '09/11/2023',
+         primaryText:
+           'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+         secondaryText:
+           'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+         images: [
+           '/image/activites/activites1.png',
+           '/image/activites/activites2.png',
+           '/image/activites/activites3.png',
+         ],
+         discover: 'Discover',
+       },
+       {
+         id: crypto.randomUUID(),
+         img: '/image/manicon.svg',
+         name: 'macari  ',
+         country: 'Singapour',
+         img: '/image/BestRatingsImg/rating-img.svg',
+         data: '14/09/2023',
+         primaryText:
+           'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+         secondaryText: 'The lorem ipsum is, in printing.',
+         images: [
+           '/image/activites/activites4.png',
+           '/image/activites/activites5.png',
+           '/image/activites/activites6.png',
+         ],
+         discover: 'Discover',
+       },
+       {
+         id: crypto.randomUUID(),
+         img: '/image/manicon.svg',
+         name: 'Jojo alba',
+         country: 'Kuala lumpur',
+         img: '/image/BestRatingsImg/rating-img.svg',
+         data: '28/09/2023',
+         primaryText:
+           'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+         secondaryText:
+           'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+         images: [
+           '/image/activites/activites7.png',
+           '/image/activites/activites8.png',
+           '/image/activites/activites9.png',
+         ],
+         discover: 'Discover',
        },
      ],
    },
