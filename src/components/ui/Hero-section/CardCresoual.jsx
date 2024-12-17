@@ -7,7 +7,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 const CardCarousel = memo(({image}) => {
-  console.log('hello')
   const [images,id] = image;
   return (
     <Swiper
@@ -22,6 +21,7 @@ const CardCarousel = memo(({image}) => {
     
       {
         images.map((img) => {
+          console.log(img)
           return <SwiperSlide key={crypto.randomUUID()}><img className='w-full' src={img} alt="" /></SwiperSlide>
         })
       }

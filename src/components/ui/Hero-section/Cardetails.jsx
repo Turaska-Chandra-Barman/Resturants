@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import CardCarousel from './CardCresoual';
 
-const Cardetails = ({ id, images, ratingnum, ratingimg, reviews, text }) => {
+const Cardetails = ({ id, name,images, ratingnum, ratingimg, reviews, text }) => {
 
   
   const memoizedImage = useMemo(() => [images], [images]);

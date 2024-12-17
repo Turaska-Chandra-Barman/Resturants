@@ -14,13 +14,7 @@ import Cardetails from './Cardetails';
 
 
 
-
-
-
 const HotelCard = () => {
-
-
-
 
   const [getValue] = useContext(theameContext);
   const { bestRating } = getValue[0];
@@ -78,8 +72,8 @@ const HotelCard = () => {
 
           {array.slice(0, 2).map((arry,i) => {
             return (
-              <SwiperSlide key={i} >
-                <div className="grid grid-cols-1   sm:grid-cols-2  lg:grid-cols-4 gap-2  xl:gap-8">
+              <SwiperSlide key={i}  >
+                <div  className="grid grid-cols-1   sm:grid-cols-2  lg:grid-cols-4 gap-2  xl:gap-8">
                   {bestRating.map(
                     (
                       { id, images, name, ratingimg, ratingnum, reviews, text },
@@ -88,7 +82,7 @@ const HotelCard = () => {
 
 
                       return (
-                       <Cardetails id={id} images={images} ratingimg={ratingimg} ratingnum={ratingnum} reviews={reviews} text={text}/>
+                       <Cardetails id={id} images={images} ratingimg={ratingimg} ratingnum={ratingnum} reviews={reviews} text={text} name={name}/>
                       );
                     }
                   )}

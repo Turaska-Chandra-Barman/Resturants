@@ -1,6 +1,8 @@
 import React from 'react'
 import Catagoerys from './Catagoerys'
 import HotelCard from './Hero-section/HotelCard'
+import LatestCardSection from './Latest Trands/LatestCardSection'
+import ExploreSection from './ExpolorSection/ExploreSection'
 
 
 const MainContainer = () => {
@@ -9,6 +11,8 @@ const MainContainer = () => {
    
         <Catagoerys/>
         <HotelCard/>
+        <LatestCardSection/>
+        <ExploreSection/>
   
     </>
   )
