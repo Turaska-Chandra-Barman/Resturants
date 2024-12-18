@@ -3,6 +3,7 @@ import Catagoerys from './Catagoerys'
 import HotelCard from './Hero-section/HotelCard'
 import LatestCardSection from './Latest Trands/LatestCardSection'
 import ExploreSection from './ExpolorSection/ExploreSection'
+import Activites from './Activites/Activites'
 
 
 const MainContainer = () => {
@@ -13,6 +14,7 @@ const MainContainer = () => {
         <HotelCard/>
         <LatestCardSection/>
         <ExploreSection/>
+        <Activites/>
   
     </>
   )
